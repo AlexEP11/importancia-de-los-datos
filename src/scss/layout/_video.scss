@@ -1,0 +1,40 @@
+.video {
+    position: relative;
+    max-height: 70rem;
+    min-height: 50rem;
+    overflow: hidden;
+
+    .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: rgb(1,0,8);
+background: radial-gradient(circle, rgba(1,0,8,0.4543067226890757) 0%, rgba(17,18,17,1) 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    video {
+        @include desktop {
+            width: 100%;
+        }
+
+        display: block;
+        width: auto;
+    }
+}
+
+
+.contenido-video {
+    
+    text-align: center;
+
+    h2 {
+        color: $blanco;
+        font-size: 7rem;
+        font-weight: 700;
+    }
+
+
+}

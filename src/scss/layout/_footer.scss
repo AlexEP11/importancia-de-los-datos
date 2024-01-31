@@ -1,0 +1,13 @@
+.footer {
+    background-color: $cafe;
+    padding: 2rem 1rem;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+
+    h4 {
+        color: $blanco;
+    }
+}

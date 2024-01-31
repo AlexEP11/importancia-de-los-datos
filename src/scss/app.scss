@@ -1,0 +1,12 @@
+/* BASE */
+@import "base/variables";
+@import "base/globales";
+@import "base/normalize";
+@import "base/mixins";
+
+/* UI */
+@import "layout/header";
+@import "layout/video";
+@import "layout/datosDerecha";
+@import "layout/datosIzquierda";
+@import "layout/footer";
